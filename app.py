@@ -57,6 +57,7 @@ if st.button('Predict'):
 
     # Display the prediction
     if prediction == 1:
-        st.write('🎉 Loan Approved')
+        st.balloons()
+        st.success('Congratulations! Your loan has been approved! 🎉😊')
     else:
-        st.write('❌ Loan Rejected')
+        st.error('Unfortunately, your loan has not been approved. 😔❌')
