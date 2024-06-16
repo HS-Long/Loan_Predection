@@ -7,9 +7,9 @@ import numpy as np
 model = pickle.load(open('finalized_model.sav', 'rb'))
 
 # Create input fields
-st.markdown("<h1 style='text-align: center;'>Institute of Technology of Cambodia</h1>", unsafe_allow_html=True)
-st.markdown("<h1 style='text-align: center;'>Department of AMS</h1>", unsafe_allow_html=True)
-st.markdown("<h1 style='text-align: center;'>Loan Approval Prediction 🏦</h1>", unsafe_allow_html=True)
+st.markdown("<h2 style='text-align: center;'>Institute of Technology of Cambodia</h2>", unsafe_allow_html=True)
+st.markdown("<h2 style='text-align: center;'>Department of AMS</h2>", unsafe_allow_html=True)
+st.markdown("<h2 style='text-align: center;'>Loan Approval Prediction 🏦</h2>", unsafe_allow_html=True)
 st.markdown("<h3 style='text-align: center;'>Made By Group-6</h3>", unsafe_allow_html=True)
 
 # Input fields
